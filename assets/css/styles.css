@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(10, 10, 10);
+    background-color: rgba(7, 30, 135, 0.599);
     color: #fafafa;
     display: flex;
     align-items: center;
@@ -43,6 +43,14 @@ h1 {
     font-size: 20px;
     margin-bottom: 30px;
 }
+h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+h2 svg {
+    color: #fafafa;
+    font-size: 18px;
+}
 .row {
     width: 100%;
     height: 56px;
@@ -56,14 +64,20 @@ h1 {
     transition: ease-in-out 0.35s;
     transform: scale(1.05);
 }
+.row-share-btn {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: beige;
+}
 a {
     text-decoration: none;
     color: black;
 }
 .image-container {
     height: 96px;
-    width: 96px;
-    border-radius: 50px;
+    border-radius: 40px;
     overflow: hidden;
 }
 
@@ -74,4 +88,8 @@ a {
     margin: 4px 8px;
     width: 44px;
     height: 44px;
+}
+.row-share-btn svg {
+    margin: 12px;
+    margin-top: 10px;
 }
